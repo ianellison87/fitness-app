@@ -7,7 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 ActiveRecord::Base.transaction do
   User.destroy_all
-  Beer.destroy_all
 
   demo_user = {
     'username' => 'ianellison87',
